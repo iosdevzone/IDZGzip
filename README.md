@@ -16,7 +16,7 @@ Using the category is very straight forward.
 
 // Assuming data is an NSData holding data to be compressed.
 NSError* error = nil;
-// gunzip the data
+// gzip the data
 NSData* gzippedData = [data gzip:&error];
 if(!gzippedData)
 {
